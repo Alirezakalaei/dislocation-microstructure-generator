@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Dislocation Microstructure Generator (Parallel Slip Planes)"
+authors:
+  - family-names: "Kalaei"
+    given-names: "Alireza"
+    affiliation: "Department of Mechanical Engineering, The University of Hong Kong, Pokfulam Road, Hong Kong, P.R. China"
+repository-code: "https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>"
+license: "MIT"
+keywords:
+  - dislocations
+  - crystal plasticity
+  - microstructure
+  - numba
+  - internal stress
+  - mura
+  - fcc
+  - copper
+abstract: >
+  Python tools to generate dislocation loop microstructures on parallel slip planes
+  and compute 2D dislocation density fields, tangent/angle distributions, and internal
+  stress-like fields using Numba-accelerated kernels.
+version: "0.1.0"
+date-released: "2026-01-03"
